@@ -1,0 +1,32 @@
+.elibs-header .navbar {
+  background-color: var();
+}
+
+.navbar-brand {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: var(--clr-2) !important;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  color: var(--clr-2) !important;
+}
+
+.elibs-register-btns button {
+  /* font-weight: bold; */
+}
+
+.elibs-register-btns .register {
+  background-color: var(--clr-2) !important;
+  border-color: var(--clr-2) !important;
+  color: var(--btn-clr);
+
+}
+
+.elibs-register-btns button:hover {
+  opacity: .9;
+}
