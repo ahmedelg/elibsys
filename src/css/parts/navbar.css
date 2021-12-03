@@ -3,13 +3,13 @@
 }
 
 .navbar-brand {
-  font-size: 1.9rem;
+  /* font-size: 1.9rem; */
   font-weight: bold;
   color: var(--clr-2) !important;
 }
 
 .nav-link {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .nav-link:hover {
@@ -24,7 +24,6 @@
   background-color: var(--clr-2) !important;
   border-color: var(--clr-2) !important;
   color: var(--btn-clr);
-
 }
 
 .elibs-register-btns button:hover {

@@ -1,15 +1,38 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
+
+/* * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box !important;
+} */
 
 body {
   background-color: var(--bg-clr) !important;
+  overflow-x: hidden;
+  font-family: 'Hind', sans-serif;
 }
 
 .elibs-ele {
   background-color: var(--ele-bgclr) !important;
+}
+
+.elibs-ele_title {
+  color: var(--clr-2);
+}
+
+.elibs-ele_subtitle {
+  color: var(--clr-3);
+}
+
+.elibs-ele_button {
+  background-color: var(--clr-2) !important;
+  border-color: var(--clr-2) !important;
+  color: var(--btn-clr);
+}
+
+.elibs-ele_button:hover {
+  opacity: .9;
+  color: var(--btn-clr);
 }
 
 .active {

@@ -2,3 +2,5 @@
 @import "globals.css";
 /* .>> Parts */
 @import "./parts/navbar.css";
+@import "./parts/contactUs.css";
+@import "./parts/books.css";
