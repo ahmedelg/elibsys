@@ -4,7 +4,7 @@ namespace components\Guest;
 
 class Guest
 {
-  function GET_HOME_PG()
+  static function GET_HOME_PG()
   {
     // $books;
     // $users;
@@ -14,10 +14,10 @@ class Guest
   {
   }
   // -----------
-  function GET_REGISTER_PG()
+  static function GET_REGISTER_PG()
   {
   }
-  function POST_REGISTER_PG()
+  static function POST_REGISTER_PG()
   {
   }
   // -----------

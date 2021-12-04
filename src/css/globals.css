@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
 
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box !important;
-} */
-
 body {
-  background-color: var(--bg-clr) !important;
+  background-color: #efefef !important;
   overflow-x: hidden;
   font-family: 'Hind', sans-serif;
 }
 
 .elibs-ele {
-  background-color: var(--ele-bgclr) !important;
+  /* background-color: var(--ele-bgclr) !important; */
+}
+
+.elibs-ele2 {
+  background-color: var(--clr-3) !important;
+  /* background-color: white !important; */
 }
 
 .elibs-ele_title {

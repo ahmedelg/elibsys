@@ -4,15 +4,15 @@
 #allBooks .card {
   /* background-color: whitesmoke !important;
 border-color: transparent !important; */
-  box-shadow: 1px 1px 2px whitesmoke,
-    -1px -1px 2px whitesmoke;
-  opacity: .8;
+  /* box-shadow: none; */
+  /* opacity: 1; */
+  box-shadow: 1px 1px 5px black;
 }
 
 #allBooks .card:hover {
-  opacity: 1;
-  box-shadow: 2px 2px 7px var(--clr-2),
-    -2px -2px 7px var(--clr-2);
+  /* opacity: 1;
+box-shadow: 2px 2px 7px var(--clr-2),
+-2px -2px 7px var(--clr-2); */
 }
 
 #allBooks .card .card-text {

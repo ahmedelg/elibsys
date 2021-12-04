@@ -1,0 +1,15 @@
+@import "../../colors.css";
+
+.register-btn {
+  color: var(--bs-dark) !important;
+  background-color: var(--clr-2) !important;
+  border-color: var(--clr-2) !important;
+}
+
+form .address {
+  color: var(--clr-2) !important;
+}
+
+form label {
+  /* color: var(--bs-dark) !important; */
+}

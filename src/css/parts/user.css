@@ -1,0 +1,23 @@
+#user-info {
+  color: var(--clr-1);
+  /* background-color: var(--clr-3) !important; */
+  box-shadow: 1px 1px 5px black;
+}
+
+#user-info .user-img {
+  border-radius: 100%;
+  border: 1px solid var(--clr-2);
+}
+
+#user-info .user-name {
+  color: var(--clr-2);
+  font-weight: bold;
+}
+
+#user-info .user-more {
+  color: black;
+}
+
+#user-info .user-email {
+  color: whitesmoke;
+}

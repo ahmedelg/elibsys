@@ -1,6 +1,6 @@
 <nav class="navbar  navbar-expand-lg navbar-dark bg-dark rounded elibs-ele">
-  <div class="container">
-    <a class="navbar-brand fs-1" href="/">
+  <div class="container-fluid">
+    <a class="navbar-brand px-5 fs-1" href="/elibsys">
       <!-- <span class="enhanced">E</span>Lib<span class="system">S</span> -->
       <span class="text-white">Lbr</span>Sys
     </a>
@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="books">Home</a>
+          <a class="nav-link active" aria-current="page" href="/elibsys">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="books">Books</a>
@@ -29,13 +29,13 @@
           <a class="nav-link" href="#">Contact Us</a>
         </li>
       </ul>
-      <div class="elibs-register-btns ms-auto ">
-        <button class="btn btn-primary register">
+      <div class="elibs-register-btns ms-auto px-5 ">
+        <a href="/elibsys/pages/user/register.php" class="btn btn-primary register">
           Sign Up
-        </button>
-        <button class="btn btn-light m-1">
+        </a>
+        <a href="/elibsys/pages/user/login.php" class="btn btn-light m-1">
           Log In
-        </button>
+        </a>
       </div>
     </div>
   </div>
